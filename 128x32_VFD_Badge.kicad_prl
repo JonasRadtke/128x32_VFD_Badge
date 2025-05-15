@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 36,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -63,7 +63,7 @@
       36,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "0015055_80000001",
     "zone_display_mode": 0
   },
   "git": {
@@ -73,7 +73,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Noritake-MN12832L.kicad_prl",
+    "filename": "128x32_VFD_Badge.kicad_prl",
     "version": 3
   },
   "project": {

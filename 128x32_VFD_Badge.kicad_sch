@@ -3265,7 +3265,7 @@
 			(uuid "4d16068a-3ba6-44e9-8a3e-4175c339ee0a")
 		)
 		(instances
-			(project "Noritake-MN12832L"
+			(project "128x32_VFD_Badge"
 				(path "/c0bd1c4e-78f0-4656-80d9-2ce4030b0681"
 					(page "4")
 				)
@@ -3383,7 +3383,7 @@
 			(uuid "e772d8eb-9cf1-41f9-8236-ae23a171b230")
 		)
 		(instances
-			(project "Noritake-MN12832L"
+			(project "128x32_VFD_Badge"
 				(path "/c0bd1c4e-78f0-4656-80d9-2ce4030b0681"
 					(page "5")
 				)
@@ -3491,7 +3491,7 @@
 			(uuid "4223194a-7fe4-4596-9cfd-8fbf20e4677f")
 		)
 		(instances
-			(project "Noritake-MN12832L"
+			(project "128x32_VFD_Badge"
 				(path "/c0bd1c4e-78f0-4656-80d9-2ce4030b0681"
 					(page "6")
 				)
