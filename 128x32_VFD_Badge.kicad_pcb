@@ -10798,7 +10798,7 @@
 		)
 		(property "Value" "+"
 			(at 4 -7 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "e8b70957-3894-4af8-ac36-9fced10b9063")
 			(effects
 				(font
@@ -11564,7 +11564,7 @@
 		)
 		(property "Value" "-"
 			(at 4 -7 0)
-			(layer "B.Fab")
+			(layer "B.SilkS")
 			(uuid "34eb843f-3abe-473e-8b43-9afe53eb2049")
 			(effects
 				(font
@@ -12365,7 +12365,7 @@
 	(footprint "Noritake:Transformer_Wuerth_750316888"
 		(layer "B.Cu")
 		(uuid "a9ea7759-5507-4525-9309-c0f50978eab5")
-		(at 214.4 82 -90)
+		(at 214.4 82 90)
 		(descr "Power Transformer, horizontal core with bobbin, 6 pin, 2.54mm pitch, 11.24mm row spacing, 12.6x8.3x4.1mm")
 		(tags "transformer flyback")
 		(property "Reference" "TR1"
@@ -12393,7 +12393,7 @@
 			)
 		)
 		(property "Footprint" "Noritake:Transformer_Wuerth_750316888"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -12407,7 +12407,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/750316888.pdf"
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -12421,7 +12421,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -12440,16 +12440,6 @@
 		(sheetfile "FilamentDriver.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 5.6 4.25)
-			(end -5.8 4.25)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "fe0b6f72-1700-40d9-93c4-6a7e3c1b4b19")
-		)
-		(fp_line
 			(start -5.6 -4.25)
 			(end 5.6 -4.25)
 			(stroke
@@ -12458,6 +12448,16 @@
 			)
 			(layer "B.SilkS")
 			(uuid "6e38ff08-27ad-4fad-8e7c-f5683e7892d8")
+		)
+		(fp_line
+			(start 5.6 4.25)
+			(end -5.8 4.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "fe0b6f72-1700-40d9-93c4-6a7e3c1b4b19")
 		)
 		(fp_poly
 			(pts
@@ -12472,24 +12472,14 @@
 			(uuid "b0245038-52ef-4a1e-8c68-bfea618ac8f4")
 		)
 		(fp_line
-			(start -7.8 4.4)
-			(end -7.8 -4.4)
+			(start 7.8 -4.4)
+			(end 7.8 4.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "fcc6b6d3-a98f-4b8c-b72e-a87d18ab14bf")
-		)
-		(fp_line
-			(start 7.8 4.4)
-			(end -7.8 4.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "539531f7-22f4-4826-ba48-f9d03995991d")
+			(uuid "43fe4e3d-526d-4288-a39d-ec10df4271f1")
 		)
 		(fp_line
 			(start -7.8 -4.4)
@@ -12502,44 +12492,34 @@
 			(uuid "21c64ade-8f49-439c-8201-e1296cd32732")
 		)
 		(fp_line
-			(start 7.8 -4.4)
-			(end 7.8 4.4)
+			(start 7.8 4.4)
+			(end -7.8 4.4)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "43fe4e3d-526d-4288-a39d-ec10df4271f1")
+			(uuid "539531f7-22f4-4826-ba48-f9d03995991d")
 		)
 		(fp_line
-			(start -4.7025 4.15)
-			(end -5.6975 3.1)
+			(start -7.8 4.4)
+			(end -7.8 -4.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "fcc6b6d3-a98f-4b8c-b72e-a87d18ab14bf")
+		)
+		(fp_line
+			(start 5.715 -4.15)
+			(end 5.715 4.15)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "804ed271-d7b8-4ada-82f9-861c7b1667d9")
-		)
-		(fp_line
-			(start 5.715 4.15)
-			(end -4.7025 4.15)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "ac8fd2f7-93cf-478a-a4cd-9a8a03388a5b")
-		)
-		(fp_line
-			(start -5.715 3.1)
-			(end -5.715 -4.15)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "9bdb578f-ef59-483f-b273-b00581d70133")
+			(uuid "96df1a10-0b1c-4a19-a09a-3e4789cf517b")
 		)
 		(fp_line
 			(start -5.715 -4.15)
@@ -12552,14 +12532,34 @@
 			(uuid "6cee129e-c90f-40e3-a332-3a6399e8df9c")
 		)
 		(fp_line
-			(start 5.715 -4.15)
-			(end 5.715 4.15)
+			(start -5.715 3.1)
+			(end -5.715 -4.15)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "96df1a10-0b1c-4a19-a09a-3e4789cf517b")
+			(uuid "9bdb578f-ef59-483f-b273-b00581d70133")
+		)
+		(fp_line
+			(start 5.715 4.15)
+			(end -4.7025 4.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "ac8fd2f7-93cf-478a-a4cd-9a8a03388a5b")
+		)
+		(fp_line
+			(start -4.7025 4.15)
+			(end -5.6975 3.1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "804ed271-d7b8-4ada-82f9-861c7b1667d9")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -12574,56 +12574,56 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -6.715 2.54 270)
-			(size 1.82 1.22)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.05)
-			(net 53 "/Controller & Display/Filament Driver/F1")
-			(pintype "passive")
-			(uuid "0b0894a0-64b2-47bb-ace4-90ce6aed58c0")
-		)
-		(pad "2" smd roundrect
-			(at -6.715 0 270)
-			(size 1.82 1.22)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.05)
-			(net 5 "Net-(D2-K)")
-			(pintype "passive")
-			(uuid "d2e3557c-5c33-4b3b-8e3c-f453095a72cb")
-		)
-		(pad "3" smd roundrect
-			(at -6.715 -2.54 270)
-			(size 1.82 1.22)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(roundrect_rratio 0.05)
-			(net 90 "Net-(R8-Pad1)")
-			(pintype "passive")
-			(uuid "b865030a-f7f3-4bac-8dbc-686eca4852c4")
-		)
-		(pad "4" smd roundrect
-			(at 6.715 -2.54 270)
+			(at -6.715 2.54 90)
 			(size 1.82 1.22)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.05)
 			(net 78 "Net-(U3-SW1)")
 			(pintype "passive")
-			(uuid "5d348c6b-f29d-42af-bad7-461c60ae7b4e")
+			(uuid "0b0894a0-64b2-47bb-ace4-90ce6aed58c0")
 		)
-		(pad "5" smd roundrect
-			(at 6.715 0 270)
+		(pad "2" smd roundrect
+			(at -6.715 0 90)
 			(size 1.82 1.22)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.05)
 			(net 3 "+3.3V")
 			(pintype "passive")
-			(uuid "1dceea7a-aaa0-4909-b2e7-2718b3f4c2b9")
+			(uuid "d2e3557c-5c33-4b3b-8e3c-f453095a72cb")
 		)
-		(pad "6" smd roundrect
-			(at 6.715 2.54 270)
+		(pad "3" smd roundrect
+			(at -6.715 -2.54 90)
 			(size 1.82 1.22)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.05)
 			(net 77 "Net-(U3-SW2)")
+			(pintype "passive")
+			(uuid "b865030a-f7f3-4bac-8dbc-686eca4852c4")
+		)
+		(pad "4" smd roundrect
+			(at 6.715 -2.54 90)
+			(size 1.82 1.22)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(roundrect_rratio 0.05)
+			(net 53 "/Controller & Display/Filament Driver/F1")
+			(pintype "passive")
+			(uuid "5d348c6b-f29d-42af-bad7-461c60ae7b4e")
+		)
+		(pad "5" smd roundrect
+			(at 6.715 0 90)
+			(size 1.82 1.22)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(roundrect_rratio 0.05)
+			(net 5 "Net-(D2-K)")
+			(pintype "passive")
+			(uuid "1dceea7a-aaa0-4909-b2e7-2718b3f4c2b9")
+		)
+		(pad "6" smd roundrect
+			(at 6.715 2.54 90)
+			(size 1.82 1.22)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(roundrect_rratio 0.05)
+			(net 90 "Net-(R8-Pad1)")
 			(pintype "passive")
 			(uuid "3ee33ecc-2c43-48a6-a65d-4f022f682246")
 		)
